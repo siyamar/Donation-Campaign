@@ -5,20 +5,37 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
-import Home from './Components/Pages/Home/Home';
-import Root from './Components/Root/Root';
-
+import Root from './Root/Root';
+import Home from './Pages/Home/Home';
+import Donation from './Pages/Donation/Donation';
+import Statistics from './Pages/Statistics/Statistics';
+import ErrorPages from './Pages/ErrorPages/ErrorPages';
+import ShowDetails from './Components/ShowDetails/ShowDetails';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPages></ErrorPages>,
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: ()=> fetch('/public/data.json')
+      },
+      {
+        path: '/donation',
+        element: <Donation></Donation>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/donation/:id',
+        element: <ShowDetails></ShowDetails>,
+        loader: ()=> fetch('/public/data.json')
       }
     ]
   },
@@ -26,6 +43,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+     <RouterProvider router={router} />
   </React.StrictMode>,
 )
