@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import DonationCard from "./DonationCard";
 
 
 const Donation = () => {
@@ -26,7 +27,7 @@ const Donation = () => {
                 : <div>
                     <div>
                         {
-                            donationItems.map(donation=> )
+                            donationItems.map(donation=> <DonationCard key={donation.id} donation={donation}></DonationCard>)
                         }
                     </div>
                 </div>
