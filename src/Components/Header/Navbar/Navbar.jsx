@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="max-w-7xl mx-auto my-12">
+    <div className="max-w-7xl mx-auto my-12 px-2">
       <nav className="flex justify-between">
         <img src="/Resources/Logo.png" alt="" />
         <ul className="flex gap-4">
@@ -18,7 +18,7 @@ const Navbar = () => {
 
           <li>
             <NavLink
-              to="/donation"
+              to="/donations"
               className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
             }

@@ -16,7 +16,7 @@ const ShowDetails = () => {
     },[id, donations])
 
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-2">
             <ShowCard key={donation.id} donation={donation}></ShowCard>
         </div>
     );
