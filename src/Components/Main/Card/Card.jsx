@@ -14,8 +14,8 @@ const Card = ({ donation }) => {
       </figure>
       <div className="card-body">
         <div className="card-actions">
-          <button style={{ backgroundColor: button_bg_color }} 
-          className={`btn `}>{category}</button>
+          <button style={{ backgroundColor: button_bg_color, color: text_bg_color}} 
+          className={`btn normal-case`}>{category}</button>
         </div>   
         <h2 className="card-title">{title}</h2>
       </div>

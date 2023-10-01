@@ -1,9 +1,17 @@
 import { PieChart, Pie, Tooltip, } from 'recharts';
 
 const Statistics = () => {
+
+    const dynamicValue = JSON.parse(localStorage.getItem('donations'))
+    let donationLength = dynamicValue.length;
+    
+    const groupChart = [
+        { "name": "Your Donation", "value": donationLength },
+        { "name": "Total Donation", "value": 12 },
+      ];
     return (
-        <div>
-        <PieChart width={400} height={400}>
+        <div >
+        <PieChart width={1800} height={500}>
           <Pie
             dataKey="value"
             isAnimationActive={false}

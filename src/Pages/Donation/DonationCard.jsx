@@ -4,7 +4,8 @@ const DonationCard = ({donation}) => {
     const {id, image, description, title, category, price, card_bg_color, button_bg_color, text_bg_color}=donation;
     return (
         <div>
-            <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div style={{backgroundColor: card_bg_color}}
+            className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
     <img
       src={image}
@@ -22,7 +23,7 @@ const DonationCard = ({donation}) => {
     >
       {category}
     </button>
-    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+    <h4 className="mb-2 block font-sans text-2xl font-bold leading-snug tracking-normal text-blue-gray-900 antialiased">
      {title}
     </h4>
     <p 
