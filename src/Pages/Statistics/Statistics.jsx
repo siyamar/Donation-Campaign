@@ -1,9 +1,21 @@
-
+import { PieChart, Pie, Tooltip, } from 'recharts';
 
 const Statistics = () => {
     return (
         <div>
-            <h2>This is Statistics</h2>
+        <PieChart width={400} height={400}>
+          <Pie
+            dataKey="value"
+            isAnimationActive={false}
+            data={groupChart}
+            cx="50%"
+            cy="50%"
+            outerRadius={80}
+            fill="#8884d8"
+            label = "group"
+          />
+          <Tooltip />
+        </PieChart>
         </div>
     );
 };
