@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "../Resources/Health.png",
+      "image": "./Resources/Health.png",
       "title": "Medical Supplies for Children",
       "category": "Health",
       "description": "Help provide essential medical supplies to children in need.",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "../Resources/Education.png",
+      "image": "./Resources/Education.png",
       "title": "School Supplies for Underprivileged Students",
       "category": "Education",
       "description": "Support students by providing them with school essentials.",
@@ -23,7 +23,7 @@
     },
     {
       "id": 3,
-      "image": "../Resources/Clothing.png",
+      "image": "./Resources/Clothing.png",
       "title": "Warm Winter Coats Drive",
       "category": "Clothing",
       "description": "Donate warm winter coats to those in need during the cold season.",
@@ -34,7 +34,7 @@
     },
     {
       "id": 4,
-      "image": "../Resources/Food.png",
+      "image": "./Resources/Food.png",
       "title": "Food Bank Contribution",
       "category": "Food",
       "description": "Help fill the shelves of local food banks to fight hunger.",
@@ -45,7 +45,7 @@
     },
     {
       "id": 5,
-      "image": "../Resources/Food.png",
+      "image": "./Resources/Food.png",
       "title": "Food Bank Contribution",
       "category": "Food",
       "description": "Help fill the shelves of local food banks to fight hunger.",
@@ -56,7 +56,7 @@
     },
     {
       "id": 6,
-      "image": "../Resources/Clothing.png",
+      "image": "./Resources/Clothing.png",
       "title": "Warm Winter Coats Drive",
       "category": "Clothing",
       "description": "Donate warm winter coats to those in need during the cold season.",
@@ -67,7 +67,7 @@
     },
     {
       "id": 7,
-      "image": "../Resources/Education.png",
+      "image": "./Resources/Education.png",
       "title": "School Supplies for Underprivileged Students",
       "category": "Education",
       "description": "Support students by providing them with school essentials.",
@@ -78,7 +78,7 @@
     },
     {
         "id": 8,
-        "image": "../Resources/Health.png",
+        "image": "./Resources/Health.png",
         "title": "Medical Supplies for Children",
         "category": "Health",
         "description": "Help provide essential medical supplies to children in need.",
@@ -89,7 +89,7 @@
       },
       {
         "id": 9,
-        "image": "../Resources/Health.png",
+        "image": "./Resources/Health.png",
         "title": "Medical Supplies for Children",
         "category": "Health",
         "description": "Help provide essential medical supplies to children in need.",
@@ -100,7 +100,7 @@
       },
     {
       "id": 10,
-      "image": "../Resources/Education.png",
+      "image": "./Resources/Education.png",
       "title": "School Supplies for Underprivileged Students",
       "category": "Education",
       "description": "Support students by providing them with school essentials.",
@@ -111,7 +111,7 @@
     },
     {
       "id": 11,
-      "image": "../Resources/Clothing.png",
+      "image": "./Resources/Clothing.png",
       "title": "Warm Winter Coats Drive",
       "category": "Clothing",
       "description": "Donate warm winter coats to those in need during the cold season.",
@@ -122,7 +122,7 @@
     },
     {
       "id": 12,
-      "image": "../Resources/Food.png",
+      "image": "./Resources/Food.png",
       "title": "Food Bank Contribution",
       "category": "Food",
       "description": "Help fill the shelves of local food banks to fight hunger.",
