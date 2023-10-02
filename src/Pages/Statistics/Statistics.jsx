@@ -11,7 +11,7 @@ const Statistics = () => {
       ];
     return (
         <div >
-        <PieChart width={1800} height={500}>
+        <PieChart width={1350} height={400}>
           <Pie
             dataKey="value"
             isAnimationActive={false}

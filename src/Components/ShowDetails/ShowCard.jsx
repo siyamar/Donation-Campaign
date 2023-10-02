@@ -31,7 +31,8 @@ const ShowCard = ({donation}) => {
     return (
         <div>
             <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-  <div className="relative mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
+          <img className="w-screen max-h-[80vh]" src={image} alt="" />
+  <div className="mx-4 -mt-6 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
     <img 
       className="w-screen max-h-[80vh]"
       src={image}
